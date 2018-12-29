@@ -38,6 +38,6 @@ fn main() {
     println!("square is {}", res);
     println!("Abs of -45.7 is {}", abs(-45.7));
     println!("clamp 9.99 between 5.0 and 8.0 is {}", clamp(9.99, 5.0, 8.0));
-    println!("factorial of 10 is {}", factorial(10))
+    println!("factorial of 10 is {}", factorial(10)) // it panics when a large result is expected
 
 }

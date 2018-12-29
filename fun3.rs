@@ -1,0 +1,16 @@
+// fun3.rs
+// fun2 skipped. relevant functions in fun1
+// passing by reference
+
+
+// reference created with & and dereferenced with *
+fn by_ref(x: &i32) -> i32 {
+    *x + 1
+}
+
+fn main() {
+    let i = 10;
+    let res1 = by_ref(&i);
+    let res2 = by_ref(&41);
+    println!("{} {}", res1, res2);
+}
